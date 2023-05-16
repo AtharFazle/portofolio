@@ -8,7 +8,7 @@ import php from "../assets/images/php.png"
 import java1 from "../assets/images/java (1).png"
 import mysql from "../assets/images/mysql.png"
 import github from "../assets/images/github.png"
-import tailwind from "../assets/images/tailwindcss.svg"
+import tailwind from "../assets/images/tailwind.png"
 import materialui from "../assets/images/materialui.png"
 import Bootsrap from "../assets/images/Bootsrap.png"
 import blender from "../assets/images/blender.png"
@@ -66,13 +66,13 @@ const Skill = () => {
             id: 8,
             src: mysql,
             title: "mysql",
-            style: "shadow-red-500"
+            style: "shadow-sky-500"
         },
         {
             id: 9,
             src: tailwind,
             title: "tailwind",
-            style: "shadow-sky-500"
+            style: "shadow-sky-500 pb-5"
         },
         {
             id: 10,
