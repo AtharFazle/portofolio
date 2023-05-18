@@ -1,14 +1,26 @@
-import React from 'react'
 import HeroImage from "../assets/images/AtharHome1.jpg"
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md'
 import { Link } from 'react-scroll'
+import { TypeAnimation } from "react-type-animation"
 
 function Home() {
     return (
         <div name="home" className=' w-full h-full bg-gradient-to-b from-black via-black to-gray-800'>
             <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row '>
                 <div className='flex flex-col justify-center h-full'>
-                    <h2 className='text-2xl sm:text-7xl font-bold text-white'>Iam A Full Stack Developer</h2>
+                    <h2 className='text-3xl sm:text-7xl font-bold text-white'>
+                        Iam A 
+                        </h2>
+                        <h2 className='text-2xl sm:text-7xl font-bold text-sky-500'>
+                        <TypeAnimation sequence={[
+                            'Frontend Developer',
+                            2000,
+                            'Backend Developer',
+                            2000,
+                            '3D Artist',
+                            2000,
+                        ]} speed={50} repeat={Infinity}/>
+                        </h2>
                     <p className='text-gray-600 py-4 max-w-md '> I am a programming enthusiast.
                         My focus is on front-end web applications.I Have can be as a Back End developer. and also have 6 Month 3D Artist Experience.
                     </p>
