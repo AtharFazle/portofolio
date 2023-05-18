@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import { Link } from 'react-scroll'
 
@@ -27,7 +27,7 @@ function Navbar() {
         },
     ]
     return (
-        <div className='flex justify-between items-center w-full h-20 text-white bg-black px-4'>
+        <div className='flex justify-between items-center w-full h-20 text-white bg-black px-4 lg:fixed'>
             <div>
                 <h1 className='font-signature text-5xl'>Athar</h1>
             </div>

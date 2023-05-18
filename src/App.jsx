@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 import Portofolio from "./components/Portofolio";
 import SocialLinks from "./components/SocialLinks";
+import SocialBottom from "./components/SocialBottom";
 
 function App() {
   return (
@@ -14,8 +15,10 @@ function App() {
       <About />
       <Portofolio />
       <Skill />
+      <SocialBottom/>
       <Contact />
       <SocialLinks />
+
     </div>
   );
 }
